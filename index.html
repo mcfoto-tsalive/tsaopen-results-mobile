@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TSA Open Championship 2026 Mobile Results</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--bg:#09273f;--panel:#123b5b;--panel2:#0d314f;--line:rgba(255,255,255,.18);--text:#f6fbff;--muted:#c9ddea;--accent:#55a9d9;--red:#ff3b30}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#123b5b,#09273f);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+header{position:sticky;top:0;z-index:10;background:rgba(9,39,63,.96);border-bottom:1px solid var(--line);padding:14px 14px 12px}
+.top{display:flex;align-items:center;gap:12px}.logo{width:64px;height:64px;object-fit:contain;flex:0 0 auto}
+h1{margin:0;font-size:22px;line-height:1.1}.meta{margin-top:8px;color:var(--muted);font-size:13px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:10px 0 0}.tabs a{color:var(--text);background:var(--panel);border:1px solid var(--line);text-decoration:none;border-radius:999px;padding:7px 10px;font-size:13px;white-space:nowrap}
+main{padding:14px;max-width:900px;margin:0 auto}section{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:16px;margin:0 0 16px;overflow:hidden}
+h2{margin:0;padding:12px 14px;font-size:18px;letter-spacing:.05em;text-transform:uppercase;background:var(--panel2);color:var(--accent)}
+.row{display:grid;grid-template-columns:40px 1fr 88px;gap:8px;align-items:center;padding:11px 12px;border-top:1px solid rgba(255,255,255,.09)}
+.row.header{color:var(--muted);font-size:12px;text-transform:uppercase;background:rgba(0,0,0,.18);padding-top:8px;padding-bottom:8px}
+.rank{text-align:center;font-weight:900;color:var(--accent)}.shooter{font-weight:800;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sub{color:var(--muted);font-size:12px;margin-top:3px}.score{text-align:right;font-weight:900;font-size:18px;font-variant-numeric:tabular-nums}.perfect{color:var(--red)}
+.empty{padding:22px 14px;text-align:center;color:var(--muted)}footer{color:var(--muted);font-size:12px;text-align:center;padding:8px 16px 24px}
+.controls{display:flex;gap:8px;margin-top:10px}button,label{display:inline-block;border:0;border-radius:8px;background:#fff;color:#123b5b;font-weight:800;padding:8px 10px;font-size:13px}input[type=file]{display:none}
+@media(min-width:720px){h1{font-size:30px}.logo{width:82px;height:82px}.row{grid-template-columns:52px 1fr 120px}.shooter{font-size:17px}.score{font-size:21px}}
+</style>
+</head>
+<body>
+<header>
+<div class="top"><img class="logo" src="tsa_logo.jpg" alt="TSA logo"><div><h1>TSA Open Championship 2026</h1><div class="meta"><span id="updated">Loading scores.csv…</span></div></div></div>
+<nav class="tabs"><a href="#overall">Overall</a><a href="#open">Open</a><a href="#master">Master</a><a href="#a">A Grade</a><a href="#b">B Grade</a><a href="#c">C Grade</a><a href="#d">D Grade</a></nav>
+<div class="controls"><label>Load CSV<input id="file" type="file" accept=".csv,text/csv"></label><button onclick="autoLoad()">Refresh</button></div>
+</header>
+<main id="results"></main>
+<footer>Results auto-refresh every 60 seconds. Tie break: score, then centres.</footer>
+<script>
+const VALID_GRADES=["Master","A","B","C","D"];const gradeLabels={Master:"Master Grade",A:"A Grade",B:"B Grade",C:"C Grade",D:"D Grade"};let competitors=[],lastText="";
+function norm(s){return String(s??"").trim()}function key(s){return norm(s).toLowerCase().replace(/[^a-z0-9]/g,"")}function pick(row,names){const wanted=names.map(key);for(const k in row){if(wanted.includes(key(k)))return row[k]}return""}
+function num(v){const n=parseFloat(String(v??"").replace(/[^0-9.\-]/g,""));return Number.isFinite(n)?n:0}function is100(s){return Math.round(num(s))===100}function plain(s,x){return Math.round(num(s))+"."+String(Math.round(num(x))).padStart(2,"0")}
+function openScore(c){const score=String(Math.round(num(c.os))), centres=String(Math.round(num(c.ox))).padStart(2,"0");if(is100(c.o1s)&&is100(c.o2s))return '<span class="perfect">'+score+'.'+centres+'</span>';if(is100(c.o1s)||is100(c.o2s))return '<span class="perfect">'+score[0]+'</span>'+score.slice(1)+'.'+centres;return score+'.'+centres}
+function parseCSV(text){const rows=[];let row=[],field="",q=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(q){if(c=='"'&&n=='"'){field+='"';i++}else if(c=='"')q=false;else field+=c}else{if(c=='"')q=true;else if(c==','){row.push(field);field=""}else if(c=='\n'){row.push(field);rows.push(row);row=[];field=""}else if(c!='\r')field+=c}}row.push(field);rows.push(row);const heads=(rows.shift()||[]).map(norm);return rows.map(r=>{let o={};heads.forEach((h,i)=>o[h]=r[i]??"");return o})}
+function build(rows){return rows.map(r=>{const name=norm(pick(r,["Name","Competitor","Shooter","Full Name"]));const gr=norm(pick(r,["Grade","Class"]));const grade=VALID_GRADES.find(g=>g.toLowerCase()===gr.toLowerCase())||"";const c1s=num(pick(r,["Card1 Score","Card 1 Score","C1 Score","Card1","Card 1","C1"])),c1x=num(pick(r,["Card1 Centres","Card 1 Centres","C1 Centres","Card1 X","Card 1 X","C1 X"]));const c2s=num(pick(r,["Card2 Score","Card 2 Score","C2 Score","Card2","Card 2","C2"])),c2x=num(pick(r,["Card2 Centres","Card 2 Centres","C2 Centres","Card2 X","Card 2 X","C2 X"]));const c3s=num(pick(r,["Card3 Score","Card 3 Score","C3 Score","Card3","Card 3","C3"])),c3x=num(pick(r,["Card3 Centres","Card 3 Centres","C3 Centres","Card3 X","Card 3 X","C3 X"]));const o1s=num(pick(r,["Open Card 1 Score","Open1 Score","Open 1 Score","Open Card1 Score"])),o1x=num(pick(r,["Open Card 1 Centres","Open1 Centres","Open 1 Centres","Open Card1 Centres","Open1 X","Open 1 X"]));const o2s=num(pick(r,["Open Card 2 Score","Open2 Score","Open 2 Score","Open Card2 Score"])),o2x=num(pick(r,["Open Card 2 Centres","Open2 Centres","Open 2 Centres","Open Card2 Centres","Open2 X","Open 2 X"]));const os=num(pick(r,["Open Score","Open","Open 200 Score","200 Score"]))||(o1s+o2s),ox=num(pick(r,["Open Centres","Open X","Open 200 Centres","200 Centres"]))||(o1x+o2x);const t300s=num(pick(r,["300 Score","300.30 Score","300 Match Score"]))||(c1s+c2s+c3s),t300x=num(pick(r,["300 Centres","300.30 Centres","300 Match Centres"]))||(c1x+c2x+c3x);const alls=num(pick(r,["Overall Score","Aggregate Score","500 Score","500.50 Score"]))||(t300s+os),allx=num(pick(r,["Overall Centres","Aggregate Centres","500 Centres","500.50 Centres"]))||(t300x+ox);return{name,grade,c1s,c1x,c2s,c2x,c3s,c3x,o1s,o1x,o2s,o2x,os,ox,t300s,t300x,alls,allx}}).filter(c=>c.name&&c.grade)}
+function sortBy(items,s,x){return[...items].sort((a,b)=>(b[s]-a[s])||(b[x]-a[x])||a.name.localeCompare(b.name))}function esc(s){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+function row(c,i,type){let score,sub;if(type==="overall"){score='<span class="'+(Math.round(c.alls)>=500?'perfect':'')+'">'+plain(c.alls,c.allx)+'</span>';sub=`${c.grade} · 300: ${plain(c.t300s,c.t300x)} · Open: ${plain(c.os,c.ox)}`}else if(type==="open"){score=openScore(c);sub=`${c.grade} · Open Card 1: ${plain(c.o1s,c.o1x)} · Open Card 2: ${plain(c.o2s,c.o2x)}`}else{score='<span class="'+(is100(c.c1s)&&is100(c.c2s)&&is100(c.c3s)?'perfect':'')+'">'+plain(c.t300s,c.t300x)+'</span>';sub=`Card 1: ${plain(c.c1s,c.c1x)} · Card 2: ${plain(c.c2s,c.c2x)} · Card 3: ${plain(c.c3s,c.c3x)}`}return `<div class="row"><div class="rank">${i+1}</div><div class="name"><div class="shooter">${esc(c.name)}</div><div class="sub">${sub}</div></div><div class="score">${score}</div></div>`}
+function section(id,title,items,type){return `<section id="${id}"><h2>${title}</h2><div class="row header"><div>Rank</div><div>Competitor</div><div style="text-align:right">Score</div></div>${items.length?items.map((c,i)=>row(c,i,type)).join(""):'<div class="empty">No scores yet</div>'}</section>`}
+function render(){let html="";html+=section("overall","Overall Aggregate",sortBy(competitors.filter(c=>c.alls||c.allx),"alls","allx"),"overall");html+=section("open","Open Competition",sortBy(competitors.filter(c=>c.os||c.ox),"os","ox"),"open");for(const g of VALID_GRADES){html+=section(g.toLowerCase()==="master"?"master":g.toLowerCase(),gradeLabels[g],sortBy(competitors.filter(c=>c.grade===g),"t300s","t300x"),"grade")}document.getElementById("results").innerHTML=html}
+function loadText(text,label){lastText=text;competitors=build(parseCSV(text));render();document.getElementById("updated").textContent=`${label} ${new Date().toLocaleTimeString()}`}
+async function autoLoad(){try{const r=await fetch("scores.csv?cache="+Date.now());if(!r.ok)throw 0;const t=await r.text();if(t&&t!==lastText)loadText(t,"Auto-updated")}catch(e){document.getElementById("updated").textContent="scores.csv not found"}}
+document.getElementById("file").onchange=e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>loadText(rd.result,"Updated");rd.readAsText(f)}
+setInterval(autoLoad,60000);autoLoad();
+</script></body></html>
