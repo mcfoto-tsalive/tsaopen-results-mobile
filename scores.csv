@@ -1,3 +1,61 @@
-Name,Grade,Card1 Score,Card1 Centres,Card2 Score,Card2 Centres,Card3 Score,Card3 Centres,Open Card 1 Score,Open Card 1 Centres,Open Card 2 Score,Open Card 2 Centres
-Example Shooter,Master,100,10,98,7,100,10,100,10,98,8
-Example A Grade,A,99,8,99,9,98,7,100,9,100,10
+Name,Grade,Card1 Score,Card1 Centres,Card2 Score,Card2 Centres,Card3 Score,Card3 Centres,Open Card 1 Score,Open Card 1 Centres,Open Card 2 Score,Open Card 2 Centres,300 Score,300 Centres,Open Score,Open Centres,Overall Score,Overall Centres
+Sean McCabe,A,99,6,99,7,,,100,6,99,5,198,13,199,11,397,24
+Robert Dixon,A,96,5,97,4,,,99,4,100,4,193,9,199,8,392,17
+Steve Petterson,Master,98,6,,,,,100,6,100,9,98,6,200,15,298,21
+Juliet Peterson,A,98,7,,,,,100,5,100,7,98,7,200,12,298,19
+James Cheeseman,Master,100,8,97,3,100,6,,,,,297,17,0,0,297,17
+Jason Wakeling,A,97,4,98,5,96,8,,,,,291,17,0,0,291,17
+Thomas Van De Burg,B,97,5,97,5,98,4,,,,,292,14,0,0,292,14
+Leon Van De Burg,B,98,5,98,5,99,3,,,,,295,13,0,0,295,13
+Brenda Buck,D,93,2,92,3,91,4,96,4,92,5,276,9,188,9,464,18
+Charlotte Dixon,D,93,5,97,6,94,6,,,,,284,17,0,0,284,17
+Wendy Braemer,A,99,7,98,6,,,,,,,197,13,0,0,197,13
+Kelvin Smillie,C,94,3,,,,,95,6,95,6,94,3,190,12,284,15
+Mark DuMont,B,98,5,97,6,99,4,100,4,97,3,294,15,197,7,491,22
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+,,,,,,,,,,,,0,0,0,0,0,0
+
+TSA Open Championship 2026 — Score Entry Instructions,,,,
+,,,,
+Enter competitor name and grade.,,,,
+"Enter Card 1, Card 2, Card 3 scores and centres separately.",,,,
+Enter Open Card 1 and Open Card 2 separately.,,,,
+"The workbook calculates 300.30, Open 200.20, and Overall 500.50 totals.",,,,
+Export the Score Entry sheet as CSV for the dashboard.,,,,
+"Valid grades: Master, A, B, C, D.",,,,
+"Tie break: score first, then centres.",,,,
