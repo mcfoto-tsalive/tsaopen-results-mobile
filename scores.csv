@@ -4,8 +4,8 @@ No,Name,Grade,Card 1 Score,Card 1 Centres,Card 2 Score,Card 2 Centres,Card 3 Sco
 3,Brenda Buck,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000097,0.000097,0.000097,
 4,Sean McCabe,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000096,,,,0.000096,0.000096,
 5,Stephen Petterson,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000095,,,,,0.000095,0.000095,
-6,Kelvin Smillie,C,92,0,,,,,,,92,0,92,0,92.00,.0,92.00,92000,0,92000,,,,92000.000094,,0.000094,92000.000094,
-7,Jason Wakeling,A,96,3,95,5,,,193,7,191,8,384,15,191.08,193.07,384.15,191008,193007,384015,,191008.000093,,,,193007.000093,384015.000093,
+6,Kelvin Smillie,C,92,0,94,2,,,,,186,2,186,2,186.02,.0,186.02,186002,0,186002,,,,186002.000094,,0.000094,186002.000094,
+7,Jason Wakeling,A,96,3,95,5,95,2,193,7,286,10,479,17,286.10,193.07,479.17,286010,193007,479017,,286010.000093,,,,193007.000093,479017.000093,
 8,Charlotte Dixon,D,93,1,96,4,95,5,,,284,10,284,10,284.10,.0,284.10,284010,0,284010,,,,,284010.000092,0.000092,284010.000092,
 9,Robert Dixon,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000091,,,,0.000091,0.000091,
 10,Craig Cleland,Master,99,5,94,3,99,7,190,6,292,15,482,21,292.15,190.06,482.21,292015,190006,482021,292015.00009,,,,,190006.00009,482021.00009,
@@ -14,12 +14,12 @@ No,Name,Grade,Card 1 Score,Card 1 Centres,Card 2 Score,Card 2 Centres,Card 3 Sco
 13,Will Hjorth,B,99,3,97,4,93,3,186,2,289,10,475,12,289.10,186.02,475.12,289010,186002,475012,,,289010.000087,,,186002.000087,475012.000087,
 14,Bruce Millard,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000086,,,,0.000086,0.000086,
 15,Leon Van Den Berg,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000085,,,0.000085,0.000085,
-16,Thomas Van Den Berg,B,94,4,95,5,,,,,189,9,189,9,189.09,.0,189.09,189009,0,189009,,,189009.000084,,,0.000084,189009.000084,
-17,Selena Wright,Master,97,6,,,,,197,10,97,6,294,16,97.06,197.10,294.16,97006,197010,294016,97006.000083,,,,,197010.000083,294016.000083,
+16,Thomas Van Den Berg,B,94,4,95,5,97,2,,,286,11,286,11,286.11,.0,286.11,286011,0,286011,,,286011.000084,,,0.000084,286011.000084,
+17,Selena Wright,Master,97,6,98,3,,,197,10,195,9,392,19,195.09,197.10,392.19,195009,197010,392019,195009.000083,,,,,197010.000083,392019.000083,
 18,Tony Beaver,Master,100,5,99,7,99,5,,,298,17,298,17,298.17,.0,298.17,298017,0,298017,298017.000082,,,,,0.000082,298017.000082,
 19,Malcolm Duthie,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000081,,,0.000081,0.000081,
 20,Ian Maddaford,A,97,3,98,4,98,6,194,9,293,13,487,22,293.13,194.09,487.22,293013,194009,487022,,293013.00008,,,,194009.00008,487022.00008,
-21,Steve O'Donnell,B,95,3,94,2,,,,,189,5,189,5,189.05,.0,189.05,189005,0,189005,,,189005.000079,,,0.000079,189005.000079,
+21,Steve O'Donnell,B,95,3,94,2,98,5,,,287,10,287,10,287.10,.0,287.10,287010,0,287010,,,287010.000079,,,0.000079,287010.000079,
 22,Amie Duncan,C,92,1,,,,,,,92,1,92,1,92.01,.0,92.01,92001,0,92001,,,,92001.000078,,0.000078,92001.000078,
 23,Mark Clapson,Master,99,6,,,,,196,9,99,6,295,15,99.06,196.09,295.15,99006,196009,295015,99006.000077,,,,,196009.000077,295015.000077,
 24,Olivia Petterson,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000076,,,0.000076,0.000076,
@@ -72,8 +72,8 @@ MASTER GRADE – 300.30,,,,
 Place,No,Name,Score,
 1,18,Tony Beaver,298.17,
 2,10,Craig Cleland,292.15,
-3,23,Mark Clapson,99.06,
-4,17,Selena Wright,97.06,
+3,17,Selena Wright,195.09,
+4,23,Mark Clapson,99.06,
 5,5,Stephen Petterson,0.00,
 6,25,Gavin Riddle,0.00,
 7,27,Abby Pierce,0.00,
@@ -87,7 +87,7 @@ A GRADE – 300.30,,,,
 ,,,,
 Place,No,Name,Score,
 1,20,Ian Maddaford,293.13,
-2,7,Jason Wakeling,191.08,
+2,7,Jason Wakeling,286.10,
 3,1,Wendy Bramer,0.00,
 4,4,Sean McCabe,0.00,
 5,9,Robert Dixon,0.00,
@@ -101,8 +101,8 @@ B GRADE – 300.30,,,,
 ,,,,
 Place,No,Name,Score,
 1,13,Will Hjorth,289.10,
-2,16,Thomas Van Den Berg,189.09,
-3,21,Steve O'Donnell,189.05,
+2,21,Steve O'Donnell,287.10,
+3,16,Thomas Van Den Berg,286.11,
 4,15,Leon Van Den Berg,0.00,
 5,19,Malcolm Duthie,0.00,
 6,24,Olivia Petterson,0.00,
@@ -116,8 +116,8 @@ C GRADE – 300.30,,,,
 "Ranked by score first, then centres",,,,
 ,,,,
 Place,No,Name,Score,
-1,22,Amie Duncan,92.01,
-2,6,Kelvin Smillie,92.00,
+1,6,Kelvin Smillie,186.02,
+2,22,Amie Duncan,92.01,
 3,26,Chris Waddham,0.00,
 4,36,Caleb Williams,0.00,
 
@@ -184,16 +184,16 @@ OVERALL AGGREGATE – 500.50,,,,
 Place,No,Name,Grade,Score
 1,20,Ian Maddaford,A,487.22
 2,10,Craig Cleland,Master,482.21
-3,13,Will Hjorth,B,475.12
-4,7,Jason Wakeling,A,384.15
-5,18,Tony Beaver,Master,298.17
-6,23,Mark Clapson,Master,295.15
-7,17,Selena Wright,Master,294.16
-8,8,Charlotte Dixon,D,284.10
-9,16,Thomas Van Den Berg,B,189.09
-10,21,Steve O'Donnell,B,189.05
-11,22,Amie Duncan,C,92.01
-12,6,Kelvin Smillie,C,92.00
+3,7,Jason Wakeling,A,479.17
+4,13,Will Hjorth,B,475.12
+5,17,Selena Wright,Master,392.19
+6,18,Tony Beaver,Master,298.17
+7,23,Mark Clapson,Master,295.15
+8,21,Steve O'Donnell,B,287.10
+9,16,Thomas Van Den Berg,B,286.11
+10,8,Charlotte Dixon,D,284.10
+11,6,Kelvin Smillie,C,186.02
+12,22,Amie Duncan,C,92.01
 13,1,Wendy Bramer,A,0.00
 14,2,John Bramer,D,0.00
 15,3,Brenda Buck,D,0.00
@@ -226,7 +226,7 @@ Prize,No,Name,Score,
 Master Grade Winner,18,Tony Beaver,298.17,
 A Grade Winner,20,Ian Maddaford,293.13,
 B Grade Winner,13,Will Hjorth,289.10,
-C Grade Winner,22,Amie Duncan,92.01,
+C Grade Winner,6,Kelvin Smillie,186.02,
 D Grade Winner,8,Charlotte Dixon,284.10,
 Open Winner,17,Selena Wright,197.10,
 Overall Aggregate Winner,20,Ian Maddaford,487.22,
