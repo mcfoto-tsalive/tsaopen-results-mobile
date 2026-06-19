@@ -1,6 +1,6 @@
 No,Name,Grade,Card 1 Score,Card 1 Centres,Card 2 Score,Card 2 Centres,Card 3 Score,Card 3 Centres,Open Score,Open Centres,300 Score,300 Centres,Overall Score,Overall Centres,300 Display,Open Display,Overall Display,300 Key,Open Key,Overall Key,Master Sort,A Sort,B Sort,C Sort,D Sort,Open Sort,Overall Sort,
-1,Wendy Braemer,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000099,,,,0.000099,0.000099,
-2,John Braemer,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000098,0.000098,0.000098,
+1,Wendy Bramer,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000099,,,,0.000099,0.000099,
+2,John Bramer,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000098,0.000098,0.000098,
 3,Brenda Buck,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000097,0.000097,0.000097,
 4,Sean McCabe,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000096,,,,0.000096,0.000096,
 5,Stephen Petterson,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000095,,,,,0.000095,0.000095,
@@ -8,14 +8,14 @@ No,Name,Grade,Card 1 Score,Card 1 Centres,Card 2 Score,Card 2 Centres,Card 3 Sco
 7,Jason Wakeling,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000093,,,,0.000093,0.000093,
 8,Charlotte Dixon,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000092,0.000092,0.000092,
 9,Robert Dixon,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000091,,,,0.000091,0.000091,
-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-11,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-13,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-16,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,Craig Cleland,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.00009,,,,,0.00009,0.00009,
+11,Juliet Peterson,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000089,,,,0.000089,0.000089,
+12,Phoebe Peterson,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000088,0.000088,0.000088,
+13,Will Hajorth,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000087,,,0.000087,0.000087,
+14,Bruce Millard,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000086,,,,0.000086,0.000086,
+15,Leon Van Den Berg,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000085,,,0.000085,0.000085,
+16,Thomas Van Den Berg,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000084,,,0.000084,0.000084,
+17,Selena Wright,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000083,,,,,0.000083,0.000083,
 18,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 19,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 20,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -71,22 +71,29 @@ MASTER GRADE – 300.30,,,,
 ,,,,
 Place,No,Name,Score,
 1,5,Stephen Petterson,0.00,
+2,10,Craig Cleland,0.00,
+3,17,Selena Wright,0.00,
 
 
 A GRADE – 300.30,,,,
 "Ranked by score first, then centres",,,,
 ,,,,
 Place,No,Name,Score,
-1,1,Wendy Braemer,0.00,
+1,1,Wendy Bramer,0.00,
 2,4,Sean McCabe,0.00,
 3,7,Jason Wakeling,0.00,
 4,9,Robert Dixon,0.00,
+5,11,Juliet Peterson,0.00,
+6,14,Bruce Millard,0.00,
 
 
 B GRADE – 300.30,,,,
 "Ranked by score first, then centres",,,,
 ,,,,
 Place,No,Name,Score,
+1,13,Will Hajorth,0.00,
+2,15,Leon Van Den Berg,0.00,
+3,16,Thomas Van Den Berg,0.00,
 
 
 C GRADE – 300.30,,,,
@@ -100,17 +107,18 @@ D GRADE – 300.30,,,,
 "Ranked by score first, then centres",,,,
 ,,,,
 Place,No,Name,Score,
-1,2,John Braemer,0.00,
+1,2,John Bramer,0.00,
 2,3,Brenda Buck,0.00,
 3,8,Charlotte Dixon,0.00,
+4,12,Phoebe Peterson,0.00,
 
 
 OPEN COMPETITION – 200.20,,,,
 "Ranked by score first, then centres",,,,
 ,,,,
 Place,No,Name,Grade,Score
-1,1,Wendy Braemer,A,.0
-2,2,John Braemer,D,.0
+1,1,Wendy Bramer,A,.0
+2,2,John Bramer,D,.0
 3,3,Brenda Buck,D,.0
 4,4,Sean McCabe,A,.0
 5,5,Stephen Petterson,Master,.0
@@ -118,14 +126,22 @@ Place,No,Name,Grade,Score
 7,7,Jason Wakeling,A,.0
 8,8,Charlotte Dixon,D,.0
 9,9,Robert Dixon,A,.0
+10,10,Craig Cleland,Master,.0
+11,11,Juliet Peterson,A,.0
+12,12,Phoebe Peterson,D,.0
+13,13,Will Hajorth,B,.0
+14,14,Bruce Millard,A,.0
+15,15,Leon Van Den Berg,B,.0
+16,16,Thomas Van Den Berg,B,.0
+17,17,Selena Wright,Master,.0
 
 
 OVERALL AGGREGATE – 500.50,,,,
 "Ranked by score first, then centres",,,,
 ,,,,
 Place,No,Name,Grade,Score
-1,1,Wendy Braemer,A,0.00
-2,2,John Braemer,D,0.00
+1,1,Wendy Bramer,A,0.00
+2,2,John Bramer,D,0.00
 3,3,Brenda Buck,D,0.00
 4,4,Sean McCabe,A,0.00
 5,5,Stephen Petterson,Master,0.00
@@ -133,13 +149,21 @@ Place,No,Name,Grade,Score
 7,7,Jason Wakeling,A,0.00
 8,8,Charlotte Dixon,D,0.00
 9,9,Robert Dixon,A,0.00
+10,10,Craig Cleland,Master,0.00
+11,11,Juliet Peterson,A,0.00
+12,12,Phoebe Peterson,D,0.00
+13,13,Will Hajorth,B,0.00
+14,14,Bruce Millard,A,0.00
+15,15,Leon Van Den Berg,B,0.00
+16,16,Thomas Van Den Berg,B,0.00
+17,17,Selena Wright,Master,0.00
 
 
 Prize,No,Name,Score,
 Master Grade Winner,5,Stephen Petterson,0.00,
-A Grade Winner,1,Wendy Braemer,0.00,
-B Grade Winner,,,,
+A Grade Winner,1,Wendy Bramer,0.00,
+B Grade Winner,13,Will Hajorth,0.00,
 C Grade Winner,6,Kelvin Smillie,0.00,
-D Grade Winner,2,John Braemer,0.00,
-Open Winner,1,Wendy Braemer,.0,
-Overall Aggregate Winner,1,Wendy Braemer,0.00,
+D Grade Winner,2,John Bramer,0.00,
+Open Winner,1,Wendy Bramer,.0,
+Overall Aggregate Winner,1,Wendy Bramer,0.00,
