@@ -1,61 +1,145 @@
-Name,Grade,Card1 Score,Card1 Centres,Card2 Score,Card2 Centres,Card3 Score,Card3 Centres,Open Card 1 Score,Open Card 1 Centres,Open Card 2 Score,Open Card 2 Centres,300 Score,300 Centres,Open Score,Open Centres,Overall Score,Overall Centres
-Sean McCabe,A,99,6,99,7,,,100,6,99,5,198,13,199,11,397,24
-Robert Dixon,A,96,5,97,4,,,99,4,100,4,193,9,199,8,392,17
-Steve Petterson,Master,98,6,,,,,100,6,100,9,98,6,200,15,298,21
-Juliet Peterson,A,98,7,,,,,100,5,100,7,98,7,200,12,298,19
-James Cheeseman,Master,100,8,97,3,100,6,,,,,297,17,0,0,297,17
-Jason Wakeling,A,97,4,98,5,96,8,,,,,291,17,0,0,291,17
-Thomas Van De Burg,B,97,5,97,5,98,4,,,,,292,14,0,0,292,14
-Leon Van De Burg,B,98,5,98,5,99,3,,,,,295,13,0,0,295,13
-Brenda Buck,D,93,2,92,3,91,4,96,4,92,5,276,9,188,9,464,18
-Charlotte Dixon,D,93,5,97,6,94,6,,,,,284,17,0,0,284,17
-Wendy Braemer,A,99,7,98,6,,,,,,,197,13,0,0,197,13
-Kelvin Smillie,C,94,3,,,,,95,6,95,6,94,3,190,12,284,15
-Mark DuMont,B,98,5,97,6,99,4,100,4,97,3,294,15,197,7,491,22
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
-,,,,,,,,,,,,0,0,0,0,0,0
+No,Name,Grade,Card 1 Score,Card 1 Centres,Card 2 Score,Card 2 Centres,Card 3 Score,Card 3 Centres,Open Score,Open Centres,300 Score,300 Centres,Overall Score,Overall Centres,300 Display,Open Display,Overall Display,300 Key,Open Key,Overall Key,Master Sort,A Sort,B Sort,C Sort,D Sort,Open Sort,Overall Sort,
+1,Wendy Braemer,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000099,,,,0.000099,0.000099,
+2,John Braemer,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000098,0.000098,0.000098,
+3,Brenda Buck,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000097,0.000097,0.000097,
+4,Sean McCabe,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000096,,,,0.000096,0.000096,
+5,Stephen Petterson,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000095,,,,,0.000095,0.000095,
+6,Kelvin Smillie,C,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,0.000094,,0.000094,0.000094,
+7,Jason Wakeling,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000093,,,,0.000093,0.000093,
+8,Charlotte Dixon,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000092,0.000092,0.000092,
+9,Robert Dixon,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000091,,,,0.000091,0.000091,
+10,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+21,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+32,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+33,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+34,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+37,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+38,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+39,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+42,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+43,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+44,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+46,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+49,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+50,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
-TSA Open Championship 2026 — Score Entry Instructions,,,,
+
+Shooting Competition Workbook,,,,
 ,,,,
-Enter competitor name and grade.,,,,
-"Enter Card 1, Card 2, Card 3 scores and centres separately.",,,,
-Enter Open Card 1 and Open Card 2 separately.,,,,
-"The workbook calculates 300.30, Open 200.20, and Overall 500.50 totals.",,,,
-Export the Score Entry sheet as CSV for the dashboard.,,,,
-"Valid grades: Master, A, B, C, D.",,,,
-"Tie break: score first, then centres.",,,,
+Use this workbook in Excel or open it in Apple Numbers and save it as a .numbers file.,,,,
+Enter competitor names and choose Grade from the dropdown on Score Entry.,,,,
+Enter POINTS and CENTRES separately for each card.,,,,
+"300 Match = Card 1 + Card 2 + Card 3, maximum 300.30.",,,,
+"Open Match = 20-shot card, maximum 200.20.",,,,
+"Overall Aggregate = 300 Match + Open Match, maximum 500.50.",,,,
+"Tie-break hierarchy used by the displays: score first, centres second. If there is still an exact tie, competitor number is used only to keep the display stable.",,,,
+,,,,
+"TV display sheets are separate screens: Master, A, B, C, D, Open, Overall.",,,,
+"To show on a TV: connect Mac to TV, open this workbook in Numbers or Excel, make the window full-screen, then move between TV sheets manually or use your Mac's display/slide workflow.",,,,
+Numbers import fix: display formulas do not use Excel TEXT().,,,,
+"Scores display as score.centres, e.g. 298.07, using IF() only.",,,,
+
+MASTER GRADE – 300.30,,,,
+"Ranked by score first, then centres",,,,
+,,,,
+Place,No,Name,Score,
+1,5,Stephen Petterson,0.00,
+
+
+A GRADE – 300.30,,,,
+"Ranked by score first, then centres",,,,
+,,,,
+Place,No,Name,Score,
+1,1,Wendy Braemer,0.00,
+2,4,Sean McCabe,0.00,
+3,7,Jason Wakeling,0.00,
+4,9,Robert Dixon,0.00,
+
+
+B GRADE – 300.30,,,,
+"Ranked by score first, then centres",,,,
+,,,,
+Place,No,Name,Score,
+
+
+C GRADE – 300.30,,,,
+"Ranked by score first, then centres",,,,
+,,,,
+Place,No,Name,Score,
+1,6,Kelvin Smillie,0.00,
+
+
+D GRADE – 300.30,,,,
+"Ranked by score first, then centres",,,,
+,,,,
+Place,No,Name,Score,
+1,2,John Braemer,0.00,
+2,3,Brenda Buck,0.00,
+3,8,Charlotte Dixon,0.00,
+
+
+OPEN COMPETITION – 200.20,,,,
+"Ranked by score first, then centres",,,,
+,,,,
+Place,No,Name,Grade,Score
+1,1,Wendy Braemer,A,.0
+2,2,John Braemer,D,.0
+3,3,Brenda Buck,D,.0
+4,4,Sean McCabe,A,.0
+5,5,Stephen Petterson,Master,.0
+6,6,Kelvin Smillie,C,.0
+7,7,Jason Wakeling,A,.0
+8,8,Charlotte Dixon,D,.0
+9,9,Robert Dixon,A,.0
+
+
+OVERALL AGGREGATE – 500.50,,,,
+"Ranked by score first, then centres",,,,
+,,,,
+Place,No,Name,Grade,Score
+1,1,Wendy Braemer,A,0.00
+2,2,John Braemer,D,0.00
+3,3,Brenda Buck,D,0.00
+4,4,Sean McCabe,A,0.00
+5,5,Stephen Petterson,Master,0.00
+6,6,Kelvin Smillie,C,0.00
+7,7,Jason Wakeling,A,0.00
+8,8,Charlotte Dixon,D,0.00
+9,9,Robert Dixon,A,0.00
+
+
+Prize,No,Name,Score,
+Master Grade Winner,5,Stephen Petterson,0.00,
+A Grade Winner,1,Wendy Braemer,0.00,
+B Grade Winner,,,,
+C Grade Winner,6,Kelvin Smillie,0.00,
+D Grade Winner,2,John Braemer,0.00,
+Open Winner,1,Wendy Braemer,.0,
+Overall Aggregate Winner,1,Wendy Braemer,0.00,
