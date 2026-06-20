@@ -1,12 +1,12 @@
 No,Name,Grade,Card 1 Score,Card 1 Centres,Card 2 Score,Card 2 Centres,Card 3 Score,Card 3 Centres,Open Score,Open Centres,300 Score,300 Centres,Overall Score,Overall Centres,300 Display,Open Display,Overall Display,300 Key,Open Key,Overall Key,Master Sort,A Sort,B Sort,C Sort,D Sort,Open Sort,Overall Sort,
-1,Wendy Bramer,A,98,6,,,,,,,98,6,98,6,98.06,.0,98.06,98006,0,98006,,98006.000099,,,,0.000099,98006.000099,
+1,Wendy Bramer,A,98,6,,,,,193,11,98,6,291,17,98.06,193.11,291.17,98006,193011,291017,,98006.000099,,,,193011.000099,291017.000099,
 2,John Bramer,D,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,,0.000098,0.000098,0.000098,
 3,Brenda Buck,D,96,2,,,,,,,96,2,96,2,96.02,.0,96.02,96002,0,96002,,,,,96002.000097,0.000097,96002.000097,
 4,Sean McCabe,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000096,,,,0.000096,0.000096,
 5,Stephen Petterson,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000095,,,,,0.000095,0.000095,
 6,Kelvin Smillie,C,92,0,94,2,93,3,,,279,5,279,5,279.05,.0,279.05,279005,0,279005,,,,279005.000094,,0.000094,279005.000094,
 7,Jason Wakeling,A,96,3,95,5,95,2,193,7,286,10,479,17,286.10,193.07,479.17,286010,193007,479017,,286010.000093,,,,193007.000093,479017.000093,
-8,Charlotte Dixon,D,93,1,96,4,96,5,,,285,10,285,10,285.10,.0,285.10,285010,0,285010,,,,,285010.000092,0.000092,285010.000092,
+8,Charlotte Dixon,D,93,1,96,4,96,5,185,7,285,10,470,17,285.10,185.07,470.17,285010,185007,470017,,,,,285010.000092,185007.000092,470017.000092,
 9,Robert Dixon,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000091,,,,0.000091,0.000091,
 10,Craig Cleland,Master,99,5,94,3,99,7,190,6,292,15,482,21,292.15,190.06,482.21,292015,190006,482021,292015.00009,,,,,190006.00009,482021.00009,
 11,Juliet Peterson,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000089,,,,0.000089,0.000089,
@@ -14,17 +14,17 @@ No,Name,Grade,Card 1 Score,Card 1 Centres,Card 2 Score,Card 2 Centres,Card 3 Sco
 13,Will Hjorth,B,99,3,97,4,93,3,186,2,289,10,475,12,289.10,186.02,475.12,289010,186002,475012,,,289010.000087,,,186002.000087,475012.000087,
 14,Bruce Millard,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000086,,,,0.000086,0.000086,
 15,Leon Van Den Berg,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000085,,,0.000085,0.000085,
-16,Thomas Van Den Berg,B,94,4,95,5,97,2,,,286,11,286,11,286.11,.0,286.11,286011,0,286011,,,286011.000084,,,0.000084,286011.000084,
+16,Thomas Van Den Berg,B,94,4,95,5,97,2,191,3,286,11,477,14,286.11,191.03,477.14,286011,191003,477014,,,286011.000084,,,191003.000084,477014.000084,
 17,Selena Wright,Master,97,6,98,3,,,197,10,195,9,392,19,195.09,197.10,392.19,195009,197010,392019,195009.000083,,,,,197010.000083,392019.000083,
 18,Tony Beaver,Master,100,5,99,7,99,5,,,298,17,298,17,298.17,.0,298.17,298017,0,298017,298017.000082,,,,,0.000082,298017.000082,
 19,Malcolm Duthie,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000081,,,0.000081,0.000081,
 20,Ian Maddaford,A,97,3,98,4,98,6,194,9,293,13,487,22,293.13,194.09,487.22,293013,194009,487022,,293013.00008,,,,194009.00008,487022.00008,
 21,Steve O'Donnell,B,95,3,94,2,98,5,,,287,10,287,10,287.10,.0,287.10,287010,0,287010,,,287010.000079,,,0.000079,287010.000079,
-22,Amie Duncan,C,92,1,98,1,,,,,190,2,190,2,190.02,.0,190.02,190002,0,190002,,,,190002.000078,,0.000078,190002.000078,
-23,Mark Clapson,Master,99,6,,,,,196,9,99,6,295,15,99.06,196.09,295.15,99006,196009,295015,99006.000077,,,,,196009.000077,295015.000077,
+22,Amie Duncan,C,92,1,98,1,95,4,,,285,6,285,6,285.06,.0,285.06,285006,0,285006,,,,285006.000078,,0.000078,285006.000078,
+23,Mark Clapson,Master,99,6,100,8,,,196,9,199,14,395,23,199.14,196.09,395.23,199014,196009,395023,199014.000077,,,,,196009.000077,395023.000077,
 24,Olivia Petterson,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000076,,,0.000076,0.000076,
-25,Gavin Riddle,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000075,,,,,0.000075,0.000075,
-26,Chris Waddham,C,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,0.000074,,0.000074,0.000074,
+25,Gavin Riddle,Master,,,,,,,196.11,,0,0,196.11,0,0.00,196.11.0,196.11.00,0,196110,196110,0.000075,,,,,196110.000075,196110.000075,
+26,Chris Waddham,C,92,3,,,,,,,92,3,92,3,92.03,.0,92.03,92003,0,92003,,,,92003.000074,,0.000074,92003.000074,
 27,Abby Pierce,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000073,,,,,0.000073,0.000073,
 28,Roy Herbison,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000072,,,,,0.000072,0.000072,
 29,Allison Archer,Master,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,0.000071,,,,,0.000071,0.000071,
@@ -32,7 +32,7 @@ No,Name,Grade,Card 1 Score,Card 1 Centres,Card 2 Score,Card 2 Centres,Card 3 Sco
 31,Ivor Brettell,A,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,0.000069,,,,0.000069,0.000069,
 32,Paul White,B,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,0.000068,,,0.000068,0.000068,
 33,Mark Lane,B,91,3,,,,,,,91,3,91,3,91.03,.0,91.03,91003,0,91003,,,91003.000067,,,0.000067,91003.000067,
-34,Chris Sherwood,B,97,5,,,,,,,97,5,97,5,97.05,.0,97.05,97005,0,97005,,,97005.000066,,,0.000066,97005.000066,
+34,Chris Sherwood,B,97,5,,,,,187,2,97,5,284,7,97.05,187.02,284.07,97005,187002,284007,,,97005.000066,,,187002.000066,284007.000066,
 35,Darryl Irvine,B,96,3,,,,,,,96,3,96,3,96.03,.0,96.03,96003,0,96003,,,96003.000065,,,0.000065,96003.000065,
 36,Caleb Williams,C,,,,,,,,,0,0,0,0,0.00,.0,0.00,0,0,0,,,,0.000064,,0.000064,0.000064,
 37,Charlie Irvine,D,90,4,,,,,,,90,4,90,4,90.04,.0,90.04,90004,0,90004,,,,,90004.000063,0.000063,90004.000063,
@@ -72,8 +72,8 @@ MASTER GRADE – 300.30,,,,
 Place,No,Name,Score,
 1,18,Tony Beaver,298.17,
 2,10,Craig Cleland,292.15,
-3,17,Selena Wright,195.09,
-4,23,Mark Clapson,99.06,
+3,23,Mark Clapson,199.14,
+4,17,Selena Wright,195.09,
 5,5,Stephen Petterson,0.00,
 6,25,Gavin Riddle,0.00,
 7,27,Abby Pierce,0.00,
@@ -116,9 +116,9 @@ C GRADE – 300.30,,,,
 "Ranked by score first, then centres",,,,
 ,,,,
 Place,No,Name,Score,
-1,6,Kelvin Smillie,279.05,
-2,22,Amie Duncan,190.02,
-3,26,Chris Waddham,0.00,
+1,22,Amie Duncan,285.06,
+2,6,Kelvin Smillie,279.05,
+3,26,Chris Waddham,92.03,
 4,36,Caleb Williams,0.00,
 
 
@@ -139,39 +139,39 @@ OPEN COMPETITION – 200.20,,,,
 ,,,,
 Place,No,Name,Grade,Score
 1,17,Selena Wright,Master,197.10
-2,23,Mark Clapson,Master,196.09
-3,20,Ian Maddaford,A,194.09
-4,7,Jason Wakeling,A,193.07
-5,10,Craig Cleland,Master,190.06
-6,13,Will Hjorth,B,186.02
-7,1,Wendy Bramer,A,.0
-8,2,John Bramer,D,.0
-9,3,Brenda Buck,D,.0
-10,4,Sean McCabe,A,.0
-11,5,Stephen Petterson,Master,.0
-12,6,Kelvin Smillie,C,.0
-13,8,Charlotte Dixon,D,.0
-14,9,Robert Dixon,A,.0
-15,11,Juliet Peterson,A,.0
-16,12,Phoebe Peterson,D,.0
-17,14,Bruce Millard,A,.0
-18,15,Leon Van Den Berg,B,.0
-19,16,Thomas Van Den Berg,B,.0
-20,18,Tony Beaver,Master,.0
-21,19,Malcolm Duthie,B,.0
-22,21,Steve O'Donnell,B,.0
-23,22,Amie Duncan,C,.0
-24,24,Olivia Petterson,B,.0
-25,25,Gavin Riddle,Master,.0
-26,26,Chris Waddham,C,.0
-27,27,Abby Pierce,Master,.0
-28,28,Roy Herbison,Master,.0
-29,29,Allison Archer,Master,.0
-30,30,Dave Miller,Master,.0
-31,31,Ivor Brettell,A,.0
-32,32,Paul White,B,.0
-33,33,Mark Lane,B,.0
-34,34,Chris Sherwood,B,.0
+2,25,Gavin Riddle,Master,196.11.0
+3,23,Mark Clapson,Master,196.09
+4,20,Ian Maddaford,A,194.09
+5,1,Wendy Bramer,A,193.11
+6,7,Jason Wakeling,A,193.07
+7,16,Thomas Van Den Berg,B,191.03
+8,10,Craig Cleland,Master,190.06
+9,34,Chris Sherwood,B,187.02
+10,13,Will Hjorth,B,186.02
+11,8,Charlotte Dixon,D,185.07
+12,2,John Bramer,D,.0
+13,3,Brenda Buck,D,.0
+14,4,Sean McCabe,A,.0
+15,5,Stephen Petterson,Master,.0
+16,6,Kelvin Smillie,C,.0
+17,9,Robert Dixon,A,.0
+18,11,Juliet Peterson,A,.0
+19,12,Phoebe Peterson,D,.0
+20,14,Bruce Millard,A,.0
+21,15,Leon Van Den Berg,B,.0
+22,18,Tony Beaver,Master,.0
+23,19,Malcolm Duthie,B,.0
+24,21,Steve O'Donnell,B,.0
+25,22,Amie Duncan,C,.0
+26,24,Olivia Petterson,B,.0
+27,26,Chris Waddham,C,.0
+28,27,Abby Pierce,Master,.0
+29,28,Roy Herbison,Master,.0
+30,29,Allison Archer,Master,.0
+31,30,Dave Miller,Master,.0
+32,31,Ivor Brettell,A,.0
+33,32,Paul White,B,.0
+34,33,Mark Lane,B,.0
 35,35,Darryl Irvine,B,.0
 36,36,Caleb Williams,C,.0
 37,37,Charlie Irvine,D,.0
@@ -185,33 +185,33 @@ Place,No,Name,Grade,Score
 1,20,Ian Maddaford,A,487.22
 2,10,Craig Cleland,Master,482.21
 3,7,Jason Wakeling,A,479.17
-4,13,Will Hjorth,B,475.12
-5,17,Selena Wright,Master,392.19
-6,18,Tony Beaver,Master,298.17
-7,23,Mark Clapson,Master,295.15
-8,21,Steve O'Donnell,B,287.10
-9,16,Thomas Van Den Berg,B,286.11
-10,8,Charlotte Dixon,D,285.10
-11,6,Kelvin Smillie,C,279.05
-12,22,Amie Duncan,C,190.02
-13,1,Wendy Bramer,A,98.06
-14,34,Chris Sherwood,B,97.05
-15,35,Darryl Irvine,B,96.03
-16,3,Brenda Buck,D,96.02
-17,33,Mark Lane,B,91.03
-18,37,Charlie Irvine,D,90.04
-19,2,John Bramer,D,0.00
-20,4,Sean McCabe,A,0.00
-21,5,Stephen Petterson,Master,0.00
-22,9,Robert Dixon,A,0.00
-23,11,Juliet Peterson,A,0.00
-24,12,Phoebe Peterson,D,0.00
-25,14,Bruce Millard,A,0.00
-26,15,Leon Van Den Berg,B,0.00
-27,19,Malcolm Duthie,B,0.00
-28,24,Olivia Petterson,B,0.00
-29,25,Gavin Riddle,Master,0.00
-30,26,Chris Waddham,C,0.00
+4,16,Thomas Van Den Berg,B,477.14
+5,13,Will Hjorth,B,475.12
+6,8,Charlotte Dixon,D,470.17
+7,23,Mark Clapson,Master,395.23
+8,17,Selena Wright,Master,392.19
+9,18,Tony Beaver,Master,298.17
+10,1,Wendy Bramer,A,291.17
+11,21,Steve O'Donnell,B,287.10
+12,22,Amie Duncan,C,285.06
+13,34,Chris Sherwood,B,284.07
+14,6,Kelvin Smillie,C,279.05
+15,25,Gavin Riddle,Master,196.11.00
+16,35,Darryl Irvine,B,96.03
+17,3,Brenda Buck,D,96.02
+18,26,Chris Waddham,C,92.03
+19,33,Mark Lane,B,91.03
+20,37,Charlie Irvine,D,90.04
+21,2,John Bramer,D,0.00
+22,4,Sean McCabe,A,0.00
+23,5,Stephen Petterson,Master,0.00
+24,9,Robert Dixon,A,0.00
+25,11,Juliet Peterson,A,0.00
+26,12,Phoebe Peterson,D,0.00
+27,14,Bruce Millard,A,0.00
+28,15,Leon Van Den Berg,B,0.00
+29,19,Malcolm Duthie,B,0.00
+30,24,Olivia Petterson,B,0.00
 31,27,Abby Pierce,Master,0.00
 32,28,Roy Herbison,Master,0.00
 33,29,Allison Archer,Master,0.00
@@ -226,7 +226,7 @@ Prize,No,Name,Score,
 Master Grade Winner,18,Tony Beaver,298.17,
 A Grade Winner,20,Ian Maddaford,293.13,
 B Grade Winner,13,Will Hjorth,289.10,
-C Grade Winner,6,Kelvin Smillie,279.05,
+C Grade Winner,22,Amie Duncan,285.06,
 D Grade Winner,8,Charlotte Dixon,285.10,
 Open Winner,17,Selena Wright,197.10,
 Overall Aggregate Winner,20,Ian Maddaford,487.22,
